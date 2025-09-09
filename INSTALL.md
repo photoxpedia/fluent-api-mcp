@@ -6,7 +6,7 @@
 
 ```bash
 # Install globally
-npm install -g @fluentapi/mcp-server
+npm install -g fluent-api-mcp-server
 
 # Set up your API key
 export FLUENT_API_KEY=your_fluent_api_key_here
@@ -19,13 +19,13 @@ fluent-api-mcp
 
 ```bash
 # Install in your project
-npm install @fluentapi/mcp-server
+npm install fluent-api-mcp-server
 
 # Create configuration file
 echo "FLUENT_API_KEY=your_api_key_here" > .env
 
 # Run with npx
-npx fluent-api-mcp
+npx fluent-api-mcp-server
 ```
 
 ### Option 3: Clone from GitHub
@@ -132,8 +132,8 @@ export FLUENT_API_KEY=your_key_here
 **❌ "command not found: fluent-api-mcp"**
 - Solution: Install globally or use full path
 ```bash
-npm install -g @fluentapi/mcp-server
-# Or use: npx @fluentapi/mcp-server
+npm install -g fluent-api-mcp-server
+# Or use: npx fluent-api-mcp-server
 ```
 
 **❌ "API key not found" or "Invalid API key"**
@@ -170,12 +170,12 @@ DEBUG=1 fluent-api-mcp
 
 ### Global Installation
 ```bash
-npm update -g @fluentapi/mcp-server
+npm update -g fluent-api-mcp-server
 ```
 
 ### Local Installation
 ```bash
-npm update @fluentapi/mcp-server
+npm update fluent-api-mcp-server
 ```
 
 ### From GitHub

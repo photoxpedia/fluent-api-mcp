@@ -1,5 +1,5 @@
 {
-  "name": "@fluentapi/mcp-server",
+  "name": "fluent-api-mcp-server",
   "version": "1.0.0",
   "description": "FluentAPI MCP Server - Enable AI assistants to facilitate seamless multilingual conversations",
   "main": "dist/index.js",
@@ -49,8 +49,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/fluentapi/fluent-api-mcp.git"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
