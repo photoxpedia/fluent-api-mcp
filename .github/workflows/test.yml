@@ -22,6 +22,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
@@ -36,6 +37,6 @@ jobs:
         run: npm run lint || echo "Linting not configured yet"
 
       - name: Run tests
-        run: npm test || echo "Tests pass - basic validation complete"
+        run: npm test
         env:
           FLUENT_API_KEY: fluent_live_sk_test_github_actions
