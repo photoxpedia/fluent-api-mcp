@@ -51,7 +51,7 @@ npm start
 
 ## 🔑 Getting Your FluentAPI Key
 
-1. Visit your FluentAPI deployment at: `https://your-deployment.vercel.app/pricing.html`
+1. Visit FluentAPI at: `https://www.fluentapi.io/pricing.html`
 2. Choose a plan and sign up
 3. Copy your API key (starts with `fluent_live_sk_`)
 4. Set it as an environment variable
@@ -86,7 +86,7 @@ Or with custom installation path:
       "args": ["/path/to/fluent-api-mcp/dist/index.js"],
       "env": {
         "FLUENT_API_KEY": "your_fluent_api_key_here",
-        "FLUENT_API_BASE_URL": "https://your-deployment.vercel.app"
+        "FLUENT_API_BASE_URL": "https://www.fluentapi.io"
       }
     }
   }
@@ -109,14 +109,14 @@ echo '{"jsonrpc":"2.0","id":1,"method":"tools/list","params":{}}' | fluent-api-m
 | Variable | Required | Default | Description |
 |----------|----------|---------|-------------|
 | `FLUENT_API_KEY` | Yes | - | Your FluentAPI key |
-| `FLUENT_API_BASE_URL` | No | `https://fluent-api-rose.vercel.app` | FluentAPI server URL |
+| `FLUENT_API_BASE_URL` | No | `https://www.fluentapi.io` | FluentAPI server URL |
 
 ### Configuration File
 
 Create `.env` file:
 ```bash
 FLUENT_API_KEY=fluent_live_sk_your_key_here
-FLUENT_API_BASE_URL=https://your-deployment.vercel.app
+FLUENT_API_BASE_URL=https://www.fluentapi.io
 ```
 
 ## 🐛 Troubleshooting

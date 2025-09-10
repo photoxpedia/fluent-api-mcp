@@ -86,7 +86,7 @@ Add to your Claude Desktop configuration:
       "args": ["/path/to/fluent-api-mcp/dist/index.js"],
       "env": {
         "FLUENT_API_KEY": "your_api_key_here",
-        "FLUENT_API_BASE_URL": "https://fluent-api-rose.vercel.app"
+        "FLUENT_API_BASE_URL": "https://www.fluentapi.io"
       }
     }
   }

@@ -80,7 +80,7 @@ export class FluentAPIClient {
   private baseURL: string;
   private apiKey: string;
 
-  constructor(apiKey: string, baseURL = 'https://fluent-api-rose.vercel.app') {
+  constructor(apiKey: string, baseURL = 'https://www.fluentapi.io') {
     this.apiKey = apiKey;
     this.baseURL = baseURL;
   }
@@ -94,7 +94,7 @@ export class FluentAPIClient {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'X-API-Key': this.apiKey,
+          'Authorization': `Bearer ${this.apiKey}`,
         },
         body: JSON.stringify(request),
       });
@@ -128,7 +128,7 @@ export class FluentAPIClient {
 
       const response = await fetch(`${this.baseURL}/api/borderless?${params}`, {
         headers: {
-          'X-API-Key': this.apiKey,
+          'Authorization': `Bearer ${this.apiKey}`,
         },
       });
 

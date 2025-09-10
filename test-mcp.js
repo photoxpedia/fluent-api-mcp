@@ -17,7 +17,7 @@ async function testMCPServer() {
     env: {
       ...process.env,
       FLUENT_API_KEY: 'fluent_live_sk_test_12345',
-      FLUENT_API_BASE_URL: 'https://fluent-api-rose.vercel.app'
+      FLUENT_API_BASE_URL: 'https://www.fluentapi.io'
     },
     stdio: ['pipe', 'pipe', 'pipe']
   });

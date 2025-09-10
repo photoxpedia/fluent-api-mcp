@@ -43,8 +43,8 @@ Create a `.env` file:
 # Required: Your FluentAPI key
 FLUENT_API_KEY=fluent_live_sk_your_api_key_here
 
-# Optional: FluentAPI base URL (defaults to https://fluent-api-rose.vercel.app)
-FLUENT_API_BASE_URL=https://your-fluent-api-deployment.vercel.app
+# Optional: FluentAPI base URL (defaults to https://www.fluentapi.io)
+FLUENT_API_BASE_URL=https://www.fluentapi.io
 ```
 
 ### Usage with Claude Desktop
@@ -59,7 +59,7 @@ Add to your Claude Desktop MCP configuration:
       "args": ["/path/to/fluent-api-mcp/dist/index.js"],
       "env": {
         "FLUENT_API_KEY": "your_api_key_here",
-        "FLUENT_API_BASE_URL": "https://your-deployment.vercel.app"
+        "FLUENT_API_BASE_URL": "https://www.fluentapi.io"
       }
     }
   }
@@ -228,7 +228,7 @@ fluent-api-mcp/
 | Variable | Required | Default | Description |
 |----------|----------|---------|-------------|
 | `FLUENT_API_KEY` | Yes | - | Your FluentAPI key from the pricing page |
-| `FLUENT_API_BASE_URL` | No | `https://fluent-api-rose.vercel.app` | FluentAPI server URL |
+| `FLUENT_API_BASE_URL` | No | `https://www.fluentapi.io` | FluentAPI server URL |
 
 ## 🔒 Security
 

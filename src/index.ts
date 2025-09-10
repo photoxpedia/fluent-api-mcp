@@ -18,7 +18,7 @@ import { FluentAPIClient } from './fluent-client.js';
 
 // Environment configuration
 const FLUENT_API_KEY = process.env.FLUENT_API_KEY;
-const FLUENT_API_BASE_URL = process.env.FLUENT_API_BASE_URL || 'https://fluent-api-rose.vercel.app';
+const FLUENT_API_BASE_URL = process.env.FLUENT_API_BASE_URL || 'https://www.fluentapi.io';
 
 if (!FLUENT_API_KEY) {
   console.error('Error: FLUENT_API_KEY environment variable is required');
